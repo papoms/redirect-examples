@@ -4,7 +4,7 @@ A collection of common and creative redirect methods. Used mainly as an endpoint
 
 ## How to use
 
-Clone / Download and run on Webserver with PHP or the command line using the builtin server to serve it at [http://localhost:8000](http://localhost:8000)
+Clone / Download and run on Webserver with PHP or the command line by using the builtin server to serve it at [http://localhost:8000](http://localhost:8000)
 
 ```
 php -S localhost:8000
