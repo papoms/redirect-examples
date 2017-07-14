@@ -1,0 +1,28 @@
+<html>
+<head>
+</head>
+<body>
+<pre>
+
+- use an iframe w/out src attribute
+- inject a form
+- submit the form
+
+=> referer will be blank
+
+</pre>
+    
+    <iframe name="riframe" width="100%" height="100%"></iframe>
+
+    <script type="text/javascript">
+
+        var f = document.riframe.document.createElement("form");
+        f.setAttribute('method', "get");
+        f.setAttribute('action', "http://httpbin.org/anything");
+        document.riframe.document.body.appendChild(f);
+
+        f.submit();
+
+    </script>
+</body>
+</html>
